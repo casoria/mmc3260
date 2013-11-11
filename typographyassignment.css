@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 14px/18px Lucida, Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+	background: #000000;
+}
+a {
+	color: white;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	min-width: 1000px;
+	max-width: 1200px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	background-image:url('img/moonbackground.jpg');
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 100px;
+	background: #282828;
+	color: #FFFFCC;
+	font-size: medium;
+	
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 0 100px;
+	color: #FFFFCC;
+	font-size: medium;
+}
+
+#content2 {
+	padding: 0 0 100px;
+	color: #FFFFCC;
+	font-size: large;
+	line-height:150%;
+	text-align:center;
+}
+
+#content3 {
+	padding: 0 0 100px;
+	color: #FFFFCC;
+	font-size: medium;
+	line-height:150%;
+	text-align:left;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	font-size: large;
+	color: #FFFFCC;
+	margin: -100px auto 0;
+	min-width: 1000px;
+	max-width: 1200px;
+	height: 100px;
+	background: #282828;
+	position: relative;
+	text-align:center;
+}
+
+/* Media Settings for Mobile Viewing
+-----------------------------------------------------------------------------*/
+@media screen and (max-width: 600px) {
+#header {
+	width: 30%;
+	height: 75%;
+	font-size: medium;
+}
+
+#content2 {
+	width: 30%;
+	text-align: justify;
+	font-size: medium;
+}
+
+#footer {
+	font-size: small;
+	text-align:left;
+}
+
+h1 {
+	color: #B0E2FF;
+	font-size: x-large;
+	text-align: center;
+}
+
+h2 {
+	font-size: medium;
+	text-align: center;
+}
+
+p {
+	font-size: medium;
+	text-align: justify;
